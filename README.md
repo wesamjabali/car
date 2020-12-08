@@ -4,8 +4,9 @@
 ## Goals
 1. Make a car that can go to a waypoint
 2. Car should avoid obstacles on the way there
-3. Car should run away when chased
-4. Car should be styled in one of two ways:
+3. Car should determine circular path in a room and set waypoint without reversing
+4. Car should run away when chased
+5. Car should be styled in one of two ways:
    1. Drift
    2. Off-road
       1. If off-road, implement self-balancing with weight sliders and accelerometer
