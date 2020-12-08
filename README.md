@@ -2,7 +2,6 @@
 > Github repo for an autonomous car by Mike Findlay, Wesam Jabali
 
 ## Goals
----
 1. Make a car that can go to a waypoint
 2. Car should avoid obstacles on the way there
 3. Car should run away when chased
