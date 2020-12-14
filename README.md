@@ -17,10 +17,10 @@
 | :------- | --: | :---- | -- |
 | Teensy 4.1 with pins | $38| [Link](https://www.amazon.com/gp/product/B088D3FWR7/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) | Yes
 |Lidar Sensor | $99 | [Link](https://www.dfrobot.com/product-1125.html) | Yes
-| Kit car | $100 | [Link](https://hobbyking.com/en_us/blaze-dfr-1-10-scale-carbon-fiber-drift-car-with-unpainted-bodyshell-artr-red.html?queryID=63233cf23278ec76bae500aa6dab2e28&objectID=72108&indexName=hbk_live_magento_en_us_products) | No
-| Motor | | | No |
-| Servo | | | No |
-
+| Offroad Car | $155| [Link](https://hobbyking.com/en_us/h-king-desert-fox-1-10-4wd-desert-racer-arr.html?queryID=&objectID=71697&indexName=hbk_live_magento_en_us_products) | Yes
+| Motor | included | | Yes |
+| Servo | included | | Yes |
+| Drift Kit car | $100 | [Link](https://hobbyking.com/en_us/blaze-dfr-1-10-scale-carbon-fiber-drift-car-with-unpainted-bodyshell-artr-red.html?queryID=63233cf23278ec76bae500aa6dab2e28&objectID=72108&indexName=hbk_live_magento_en_us_products) | No
 
 
 
