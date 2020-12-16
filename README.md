@@ -22,5 +22,24 @@
 | Servo | included | | Yes |
 | Drift Kit car | $100 | [Link](https://hobbyking.com/en_us/blaze-dfr-1-10-scale-carbon-fiber-drift-car-with-unpainted-bodyshell-artr-red.html?queryID=63233cf23278ec76bae500aa6dab2e28&objectID=72108&indexName=hbk_live_magento_en_us_products) | No
 
+## Mathematical Theory
+What variables can we control
 
+Turning angle
+   For turning, we can write an over simplified equation to determine steering angle. 
+     Theta= +/-(Influence*(average distance within x range within x degrees of lidar)) +/- (same as before but with different range of lidar)
 
+   You can divide the lidar into as many sections as you want, as long as they have a variable in the above eq.
+
+   +/- would be for left or right  
+   With straight at 0, any obstacles on the left would start influencing the car to drive right by increasing its value as the distance from obstacle gets shorter.
+
+   Influence would be for how intense we want it to affect the steering (right vs front right vs rear right front right would have more influence over rear right unless we're   doing the chasing program)
+   Average distance removes erroneous data, and the range makes sure it only uses data within a reasonable range around the car. 
+   The lidar will do 360 degrees, and assign data to each degree, so we need to take the data from front +/- 45°and set it as the front dataset and so on.
+   With the distance, influence of variable, and +/- you can get the car to steer away from walls and dodge obstacles
+
+Speed
+   For speed, do a similar equation as above, but with different influences and ranges. This would determine if it should be slow by walls on the side of the car, or if it      needs to start slowing down because an obstacle infront of the car is becoming closer. Or it needs to go faster because maya is zooming.
+
+   Also might have to do a different sensor for maya detection, but we can use the same formula. Maybe a bluetooth proximity sensor we put on her collar.
