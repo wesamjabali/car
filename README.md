@@ -6,10 +6,6 @@
 2. Car should avoid obstacles on the way there
 3. Car should determine circular path in a room and set waypoint without reversing
 4. Car should run away when chased
-5. Car should be styled in one of two ways:
-   1. Drift
-   2. Off-road
-      1. If off-road, implement self-balancing with weight sliders and accelerometer
 
 ## Materials:
 
@@ -20,7 +16,6 @@
 | Offroad Car | $155| [Link](https://hobbyking.com/en_us/h-king-desert-fox-1-10-4wd-desert-racer-arr.html?queryID=&objectID=71697&indexName=hbk_live_magento_en_us_products) | Yes
 | Motor | included | | Yes |
 | Servo | included | | Yes |
-| Drift Kit car | $100 | [Link](https://hobbyking.com/en_us/blaze-dfr-1-10-scale-carbon-fiber-drift-car-with-unpainted-bodyshell-artr-red.html?queryID=63233cf23278ec76bae500aa6dab2e28&objectID=72108&indexName=hbk_live_magento_en_us_products) | No
 
 ## Mathematical Theory
 What variables can we control
